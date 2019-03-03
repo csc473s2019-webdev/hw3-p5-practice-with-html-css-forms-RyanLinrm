@@ -13,16 +13,24 @@
 
         <form action="" id="survey-form">
             <div class="formElement">
-                <label for="name" id="name">Name:</label>
-                <input type="text" placeholder="Enter your name" required>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
             </div>
             <div class="formElement">
-                <label for="email" id="email">Email:</label>
-                <input type="text" placeholder="Enter your email" required>
+                <label for="email" >Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
             </div>
             <div class="formElement">
-                <label for="age" id="number">Age:</label>
-                <input type="number" placeholder="Enter your age" min="1" max="110" required>
+                <label for="age">Age:</label>
+                <input type="number" id="number" placeholder="Enter your age" min="1" max="110" required>
+            </div>
+            <div class="formElement">
+                <label for="gender">Gender:</label>
+                <select name="gender" id="dropdown">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="pnts">Prefer not to say</option>
+                </select>
             </div>
 
         </form>
