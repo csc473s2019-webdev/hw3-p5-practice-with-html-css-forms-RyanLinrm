@@ -23,12 +23,18 @@ body {
     clear: both;
 }
 
-.myform input[type="text"], .myform input[type="email"], .myform input[type="number"] {
-    padding: 5px;
-    width: 15%;
+.myform .inputboxlabel {
+        display: inline-block;
+        text-align: right;
+        width: 5%;
+        padding: 5px;
+        vertical-align: top;
 }
 
-
-.block input {
-    display:block;
+.myform input[type="text"], .myform input[type="email"], .myform input[type="number"] {
+    display: inline-block;
+    text-align: left;
+    width: 25%;
+    vertical-align: middle;
+    padding: 6px;
 }
