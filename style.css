@@ -2,6 +2,7 @@ body {
     background-color: lightskyblue;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
     line-height: 1.5em;
     min-width: 320px;
     margin: 0;
@@ -11,8 +12,23 @@ body {
     background-color: azure;
     width: 80%;
     margin: auto;
+    min-height: 1000px;
 }
 
 .formElement {
     padding-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.myform input[type="text"], .myform input[type="email"], .myform input[type="number"] {
+    padding: 5px;
+    width: 15%;
+}
+
+
+.block input {
+    display:block;
 }
