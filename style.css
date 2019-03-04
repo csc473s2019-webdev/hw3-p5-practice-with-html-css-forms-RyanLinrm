@@ -10,6 +10,7 @@ body {
   }
 
 .myform {
+    background-color: aquamarine;
     width: 75%;
     margin: auto;
     min-height: 1000px;
@@ -34,7 +35,7 @@ body {
     font-weight: bold;
 }
 
-.myform .inputboxlabel {
+.myform #name-label, .myform #email-label, .myform #number-label {
         display: inline-block;
         text-align: right;
         width: 5%;
